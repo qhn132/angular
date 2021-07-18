@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "product 1",
+      "price": 20,
+      "status": false,
+      "description": "Product description",
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg"
+    },
+    {
+      "id": 2,
+      "name": "product 2",
+      "price": 30,
+      "status": false,
+      "description": "Product description",
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg"
+    },
+    {
+      "id": 3,
+      "name": "I phone 11 xs max",
+      "price": "20000",
+      "status": false,
+      "photo": "",
+      "description": "thoáng mát sạch đẹp 2"
+    },
+    {
+      "id": 4,
+      "name": "Laptop HP",
+      "price": "02323",
+      "status": false,
+      "photo": "",
+      "description": "thoải mái rộng rãi"
+    }
+  ]
+}
