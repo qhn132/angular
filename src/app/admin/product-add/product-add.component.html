@@ -1,0 +1,69 @@
+<app-header-admin></app-header-admin>
+<div class="container">
+<h2>Thêm sản phẩm</h2>
+  <div class="row">
+    <div class="col">
+      <form action="">
+        <div class="mb-3">
+          <label for="">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="product.name"
+            name="name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="">Price</label>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="product.price"
+            name="price"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="">mo ta</label>
+          <input
+            type="text"
+            class="form-control"
+            [(ngModel)]="product.description"
+            name="description"
+          />
+        </div>
+        <button class="btn btn-primary" (click)="onAddProduct()">Add</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- <form action="" >
+  <div class="form-group">
+      <label for="">Tên truyện</label>
+      <input type="text" class="form-control" formControlName="name">
+  </div>
+  <div *ngIf="f.name.invalid && (f.name.dirty || f.name.touched)" class="alert alert-danger">
+      <div *ngIf="f.name.errors?.required">
+          Nhập tên truyện
+      </div>
+  </div>
+  <div class="form-group">
+      <label for="">Ảnh</label>
+      <input type="file" class="form-control" (change)="uploadFile($event)">
+  </div>
+  <div class="form-group">
+      <label for="">description</label>
+      <input type="number" class="form-control" formControlName="description">
+  </div>
+  <div *ngIf="f.description.invalid && (f.description.dirty || f.description.touched)" class="alert alert-danger">
+      <div *ngIf="f.description.errors?.required">
+          Nhập số lượng người xem
+      </div>
+  </div>
+  <div class="text-center">
+      <button (click)="onAddProduct()" class="btn btn-success">
+          Save
+      </button>
+  </div>
+</form> -->

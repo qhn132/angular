@@ -27,10 +27,26 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "styles/vendor/bootstrap/css/bootstrap.min.css",
+              "styles/vendor/lightbox2/css/lightbox.min.css",
+              "styles/vendor/nouislider/nouislider.min.css",
+              "styles/vendor/bootstrap-select/css/bootstrap-select.min.css",
+              "styles/vendor/owl.carousel2/assets/owl.carousel.min.css",
+              "styles/vendor/owl.carousel2/assets/owl.theme.default.css",
+              "styles/css/style.default.css",
+              "styles/css/custom.css"
             ],
-            "scripts": []
+            "scripts": [
+              "styles/vendor/jquery/jquery.min.js",
+              "styles/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "styles/vendor/lightbox2/js/lightbox.min.js",
+              "styles/vendor/nouislider/nouislider.min.js",
+              "styles/vendor/bootstrap-select/js/bootstrap-select.min.js",
+              "styles/vendor/owl.carousel2/owl.carousel.min.js",
+              "styles/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js",
+              "styles/js/front.js"
+            ]
           },
           "configurations": {
             "production": {

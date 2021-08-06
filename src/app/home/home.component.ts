@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
+import { TypeProduct } from '../admin/product/product';
+import { ProductService } from '../product.service';
+
 
 @Component({
   selector: 'app-home',
@@ -8,13 +11,21 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private activedRoute: ActivatedRoute) {
+  products: TypeProduct[];
+
+  constructor(private activedRoute: ActivatedRoute, private productService: ProductService) {
     this.activedRoute.queryParams.subscribe((params: Params) => {
       console.log(params);
     });
   }
 
   ngOnInit(): void {
+    this.getProduct();
+  }
+  getProduct() {
+    this.productService.getProducts().subscribe(data => {
+    this.products = data;
+    })
   }
 
 }

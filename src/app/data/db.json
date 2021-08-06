@@ -10,27 +10,52 @@
     },
     {
       "id": 2,
-      "name": "product 2",
-      "price": 30,
+      "name": "laptop asus",
+      "price": "323354",
       "status": false,
-      "description": "Product description",
-      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg"
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg",
+      "description": "thoáng mát sạch đẹp"
     },
     {
       "id": 3,
-      "name": "I phone 11 xs max",
-      "price": "20000",
+      "name": "Shose",
+      "price": "646465",
       "status": false,
-      "photo": "",
-      "description": "thoáng mát sạch đẹp 2"
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg",
+      "description": "aaaa"
     },
     {
       "id": 4,
       "name": "Laptop HP",
       "price": "02323",
       "status": false,
-      "photo": "",
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg",
       "description": "thoải mái rộng rãi"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi mi10 pro 5G",
+      "price": "02323345567",
+      "status": false,
+      "photo": "https://salt.tikicdn.com/cache/280x280/ts/product/f2/e4/3c/547c4370be6695df23856c76db4a3f7d.jpg",
+      "description": "thoải mái rộng rãi"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Iphone",
+      "photo": ""
+    },
+    {
+      "id": 3,
+      "name": "Android",
+      "photo": ""
+    },
+    {
+      "id": 4,
+      "name": "Laptop HP",
+      "photo": ""
     }
   ]
 }

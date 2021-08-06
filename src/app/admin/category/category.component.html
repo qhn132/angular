@@ -1,0 +1,31 @@
+<app-header-admin></app-header-admin>
+<div class="container">
+<h2>List Categories</h2>
+    <div class="row">
+      <div class="col-2">
+        <app-nav></app-nav>
+      </div>
+      <div class="col-10">
+        <table>
+            <thead>
+                <th>STT</th>
+                <th>Tên sp</th>
+                <th>Ảnh</th>
+                <th>...</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let cate of categories;index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{cate.name}}</td>
+                    <td><img [src]="cate.photo"></td>
+                    <td>
+                        <button>edit</button>
+                        <button>delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
